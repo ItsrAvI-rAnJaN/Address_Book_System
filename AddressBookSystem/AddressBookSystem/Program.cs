@@ -10,14 +10,23 @@ namespace AddressBookSystem
             // printing Welcome Message
             Console.WriteLine("\t\t\t******* WELCOME TO ADDRESS BOOK SYSTEM PROGRAM ******");
 
-            // creating Instance/Object of Class AddressBook
-            AddressBook objdetails = new AddressBook();
+            // creating Instance/Object of Class AddressBook & setting Parameters value..
+            AddressBook objdetails = new AddressBook("Ravi", "Ranjan", "DLF Phase 4", "Gurugram", "Haryana", 122002, 9319964621, "Ezekie.em@gmail.com");
 
-            // Calling Method & Giving Parameters
-            objdetails.ContactDetails("Ravi", "Ranjan", "DLF Phase 4", "Gurugram", "Haryana", 122002, 9319964621, "Ezekie.em@gmail.com");
+            // Calling Method Define in Address Class to Displaying Details.
+            objdetails.DisplayContactDetails();
+            objdetails.AddingContactDetails();
+            objdetails.DisplayContactDetails();
 
-            // For Holding Output Terminal
+            // To Hold Output Terminal
             Console.ReadKey();
         }
     }
 }
+
+
+
+
+
+
+
