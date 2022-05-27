@@ -15,8 +15,6 @@ namespace AddressBookSystem
 
             // Calling Method Define in Address Class to Displaying Details.
             objdetails.DisplayContactDetails();
-            objdetails.AddingContactDetails();
-            objdetails.DisplayContactDetails();
 
             // To Hold Output Terminal
             Console.ReadKey();
